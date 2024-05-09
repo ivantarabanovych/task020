@@ -1,0 +1,23 @@
+body{
+    background-image: linear-gradient(to top right, rgb(55, 154, 247), rgb(228, 242, 103));
+}
+
+.block1{
+    position: static;
+}
+
+.block2{
+    position: relative;
+}
+
+.block3{
+    position: absolute;
+}
+
+.block4{
+    position: sticky;
+}
+
+.block5{
+    position: fixed;
+}

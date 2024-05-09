@@ -1,32 +1,25 @@
 body{
     background-image: linear-gradient(to top right, rgb(55, 154, 247), rgb(228, 242, 103));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.block1 {
-    position: static;
-    left: 50px;
-    top: 40px;
+.box{
+    background-color: aquamarine;
+    height: 600px;
+    width: 600px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, 150px);
+    gap: 10px;
+    border-radius: 10px;
 }
 
-.block2{
-    position: relative;
-    left: 300px;
-    bottom: 250px;
+.box img{
+    width: 60px;
+    height: 60px;
 }
 
-.block3{
-    position: absolute;
-    left: 600px;
-    bottom: 550px;
-}
-
-.block4{
-    position: sticky;
-    bottom: 150px;
-}
-
-.block5{
-    position: fixed;
-    left: 600px;
-    bottom: 550px;
-}
